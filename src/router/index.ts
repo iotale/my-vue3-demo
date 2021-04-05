@@ -19,5 +19,10 @@ export default createRouter({
       name: 'counter',
       component: () => import('../views/counter.vue'),
     },
+    {
+      path: '/simple-counter',
+      name: 'simple-counter',
+      component: () => import('../views/simple-counter.vue'),
+    },
   ],
 });
